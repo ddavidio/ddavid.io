@@ -1,0 +1,14 @@
+# Terraform files
+# Ignore local Terraform directories and state files (state should be in S3 backend)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
